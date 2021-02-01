@@ -1,0 +1,30 @@
+nav {
+	display: flex;
+	direction: row;
+	justify-content: left;
+	background-color: #bbb;
+	padding-left: 15px;
+}
+
+nav a {
+	display: block;
+	font-size: large;
+	color: #000;
+	text-decoration: none;
+	margin-top: 10px;
+	margin-left: 5px;
+	margin-right: 5px;
+	margin-bottom: 0px;
+	border: 2px #000 solid;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	padding: 10px;
+	font-family: sans-serif;
+	background-color: #ddd;
+}
+
+#books:hover, #authors:hover, #add_edit_books:hover, #add_edit_authors:hover {
+	display: block;
+	background-color: #000;
+	color: #fff;
+}
